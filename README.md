@@ -1,95 +1,49 @@
-# Razorglint Painpoint Solver
+# Razorglint — From Operational Pain to Bounded Proof
 
-This repo explains which real-world pains the Razorglint stack solves, which system solves each pain, how it helps, and what value it protects.
+**A plain-language guide to problems, engineering responses and evidence limits.**  
+**Current public-facing guide · 16 October 2026**
 
-It is not an evidence warehouse.
-It is not a hype deck.
-It is a clear map from pain to solution.
+What keeps operators awake is rarely “we need more AI.” It is: **Who approved that action? What changed? Can we reconstruct the evidence? Are we saying more than we can prove?**
 
-**razorglint-painpoint-solver** explains the pain.
-**Prestige-Forge** governs the claim.
-**systems-architecture** holds the proof.
+This repository maps those pains to Razorglint Labs technology. It is **not** a live risk assessment, a certification platform, an integrated product bundle or a guarantee of commercial savings.
 
-That is the clean triangle: pain, claim, proof.
+## Start with the pain
 
----
+| Your problem | Relevant technology | What the documented evidence supports | What it does **not** establish |
+| --- | --- | --- | --- |
+| Policy says one thing; supplied observations tell another story | [Compliance Drift Detector](https://github.com/RazorglintLabs/ComplianceDriftDetector) | Batch/checkpoint analysis of operator-supplied structured claims and pre-classified records; current [76-test CI and Windows preview receipt](https://github.com/RazorglintLabs/ComplianceDriftDetector/blob/main/docs/RELEASE_STATUS.md) | No raw-log interpretation, live telemetry, real-world record authenticity, compliance certificate or signed software publisher identity. |
+| We cannot explain a claim or reproduce its evidence path | Prestige-Reforged | Staged local-first verification/evaluation, provenance, drift/history and handoff engineering; privately qualified source phases | Not a universal truth engine, a completed Windows customer release or independent certification. |
+| We need explicit permission before high-impact automation | SAR governance | Historical policy-gating and receipt-chain engineering | Not proof every agent/terminal/fleet integration is running under SAR today. |
+| An AI system might exceed an allowed boundary | SAR / OpenClaw / Voidlock candidate seams | Historical isolated governance and execution-capability tests | The proposed multi-component integration is **not** a completed, externally verified runtime. |
+| An incident response team needs a clearer evidence/handoff view | Viventia | Local-first evidence cockpit product work and repeatable isolated profile qualification | Not EDR, SIEM, 24/7 managed detection or demonstrated cloud multi-tenancy. |
+| The developer's own checks could miss errors | VEAC | Separate, adversarial, campaign-scoped testing and retained hostile cases | No universal “SAFE” score or certification of its target. |
+| A sensitive terminal action needs accountability | Command Guardian | Historical 131 passing prototype tests and hash-chained receipts | Not production readiness, universal bypass prevention, receipt signatures or SAR integration. |
+| Evidence needs chronology and tamper-evidence | Blackiron / ProofChain / SealVault / trust-reconstruction demos | Historical/local proof primitives and bounded demo engines | Not authenticated source truth, final IP diligence or one production-grade platform. |
+| We must map technical artifacts to regulatory questions | EU AI Act Evidence Readiness Sprint | Read-only mapping and gap reports for **six named articles** | Not legal advice, full Act coverage, independent conformity assessment or compliance status. |
+| A fleet operator needs degraded-state modeling | FleetSim | **Simulation-grade** trust transitions and historically recorded tests | Not fielded fleet safety or physical certification. |
+| LLM data quality risks are hard to inspect | ReasonForge | Described dataset quality, leakage/dedup and evaluation tooling | Not guaranteed model quality or a publicly verified current acceptance test from this map. |
 
-## What this repo helps answer
+[Full current capability and verification register](CURRENT_CAPABILITY_MAP_2026-10-16.md) · [Architecture and dated proof records](https://github.com/RazorglintLabs/systems-architecture) · [Founder engineering portfolio](https://github.com/RazorglintLabs/damian-ketting-ai-systems-portfolio)
 
-- What problem does this solve?
-- Who cares?
-- What breaks if this pain is ignored?
-- Which Razorglint system helps?
-- How does that system help?
-- What does it protect?
-- How would a buyer use it?
-- Which tier/license does it belong in?
-- How does it save reputation, data, time, or money?
+## Five useful buyer questions
 
----
+1. **What exact pain are we solving?** Scope the process, data, decision and failure that matter.
+2. **Which capability actually exists?** Distinguish available demo/source, private prototype, component, candidate integration and future roadmap.
+3. **What can I verify?** Ask for exact source commit, qualified platform, current test receipt and representative synthetic example.
+4. **What is excluded?** Live integrations, legal conclusions, enterprise hardening, authenticated provenance, support and transfer rights must never be assumed.
+5. **Which transaction fits?** A scoped pilot, evaluation, license, OEM agreement or standalone technology purchase each has different evidence and rights requirements.
 
-## Main maps
+## Historical maps and examples
 
-- [PAINPOINT_INDEX.md](PAINPOINT_INDEX.md) — all painpoints in one table
-- [SYSTEM_SOLUTION_MAP.md](SYSTEM_SOLUTION_MAP.md) — all systems, what they solve, how they work
-- [LICENSE_TIER_MAP.md](LICENSE_TIER_MAP.md) — which tier includes what
-- [REPUTATION_DATA_MONEY_MAP.md](REPUTATION_DATA_MONEY_MAP.md) — how the stack saves reputation, data, and money
-- [HOW_TO_USE_THIS_STACK.md](HOW_TO_USE_THIS_STACK.md) — practical usage paths for different buyers/operators
-- [CLAIM_BOUNDARIES.md](CLAIM_BOUNDARIES.md) — what we can and cannot say
-- [SUPPORTING_SYSTEMS_MAP.md](SUPPORTING_SYSTEMS_MAP.md) — cryptographic and policy infrastructure
-- [PILOT_STACK_MAP.md](PILOT_STACK_MAP.md) — SAR, OpenClaw, and FleetSim pilot packages
-- [TIER_GATING_RULES.md](TIER_GATING_RULES.md) — what each tier unlocks
-- [PAINPOINT_TIER_MATRIX.md](PAINPOINT_TIER_MATRIX.md) — severity and minimum tier per painpoint
-- [PILOT_SCOPE_BOUNDARIES.md](PILOT_SCOPE_BOUNDARIES.md) — what each pilot level includes and excludes
-- [PRICING_MODEL.md](PRICING_MODEL.md) — pricing posture (public-safe)
-- [COST_OF_NOT_OWNING_MAP.md](COST_OF_NOT_OWNING_MAP.md) — estimated cost exposure from unresolved pains
-- [MEMORY_TYPES_MAP.md](MEMORY_TYPES_MAP.md) — proof memory vs operational context memory
-- [GLOSSARY_SIMPLE.md](GLOSSARY_SIMPLE.md) — plain-language definitions
+The [26 painpoint files](painpoints/) and [older system maps](SYSTEM_SOLUTION_MAP.md) remain useful as a **May-era catalog of scenarios**. Their tier names, pilot bundles and generic proof links are **not current availability commitments**. Consult the dated [capability register](CURRENT_CAPABILITY_MAP_2026-10-16.md) before treating a described solution as a delivered product.
 
----
+Older documents such as [License Tier Map](LICENSE_TIER_MAP.md), [Pricing Model](PRICING_MODEL.md), [Pilot Stack Map](PILOT_STACK_MAP.md) and [Prestige-Forge Verification Status](PRESTIGE_FORGE_VERIFICATION_STATUS.md) are preserved for context. The 12 May 2026 self-scan does **not** pre-approve this October revision.
 
-## Self-use / dogfooding
+## Evidence discipline
 
-This repo is intended to be reviewed through Prestige-Forge before public release.
+**Observed failure is not a solved failure.** A local test PASS is not a production guarantee. A valid hash is not evidence that an operator supplied true input. An engineering architecture is not evidence that all integrations exist. Cost-of-inaction scenarios are **illustrations, not measured savings or liability estimates**.
 
-Prestige-Forge is not only described here as a claim-safety layer. Razorglint uses it to govern Razorglint's own public-facing claims.
+For current claim wording, use [Claim Boundaries](CLAIM_BOUNDARIES.md) and the [Architecture Evidence Register](https://github.com/RazorglintLabs/systems-architecture/blob/main/PUBLIC_EVIDENCE_REGISTER_2026-10-16.md) *once that proposed update is merged*. Until then, refer to the corresponding PR for review.
 
-Current status: see [PRESTIGE_FORGE_VERIFICATION_STATUS.md](PRESTIGE_FORGE_VERIFICATION_STATUS.md).
-
----
-
-## Claim safety
-
-Painpoint language in this repo follows Prestige-Forge discipline: every useful claim must be mapped to a system, a proof location, a buyer-safe wording, and a non-claim boundary.
-
-This protects buyers from hype and protects Razorglint from overclaiming.
-
----
-
-## Repo structure
-
-```
-painpoints/      — one file per painpoint, plain language
-systems/         — one file per system, what it does and how
-tiers/           — license tier breakdowns
-examples/        — usage examples
-templates/       — templates for adding new painpoints/systems
-```
-
----
-
-## Where proof lives
-
-This repo does **not** store benchmark evidence, test results, or raw proof artifacts.
-
-Proof belongs in:
-- `systems-architecture` — portfolio-level evidence, benchmark data, dominance scans
-- Each system's own repo — test suites, receipts, proof bundles
-
-This repo only **maps** systems to painpoints and references where proof lives.
-
----
-
-## Repo status
-
-See [REPO_STATUS.md](REPO_STATUS.md) for current state and next steps.
+**Contact:** [razorglint.ops@protonmail.com](mailto:razorglint.ops@protonmail.com)  
+© 2026 Razorglint Labs / TCOG Collective LLC. Source and license rights depend on the specific asset and written agreement.

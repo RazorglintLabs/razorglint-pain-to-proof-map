@@ -1,3 +1,5 @@
+> **HISTORICAL SCOPE NOTICE · 16 October 2026:** This page preserves an earlier painpoint/pilot/tier/claim mapping. It is **not a current product availability, license, price, test or performance commitment**. For today's bounded positioning consult [Current Capability Map](CURRENT_CAPABILITY_MAP_2026-10-16.md), [Claim Boundaries](CLAIM_BOUNDARIES.md) and the [README](README.md). The prior May Prestige-Forge scan covered the old text only; this revision needs fresh claim verification.
+
 # Pilot Stack Map
 
 For pilot scope boundaries and tier gating, see [PILOT_SCOPE_BOUNDARIES.md](PILOT_SCOPE_BOUNDARIES.md) and [TIER_GATING_RULES.md](TIER_GATING_RULES.md).

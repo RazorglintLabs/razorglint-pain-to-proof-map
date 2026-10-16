@@ -1,3 +1,5 @@
+> **HISTORICAL SCOPE NOTICE · 16 October 2026:** This page preserves an earlier painpoint/pilot/tier/claim mapping. It is **not a current product availability, license, price, test or performance commitment**. For today's bounded positioning consult [Current Capability Map](CURRENT_CAPABILITY_MAP_2026-10-16.md), [Claim Boundaries](CLAIM_BOUNDARIES.md) and the [README](README.md). The prior May Prestige-Forge scan covered the old text only; this revision needs fresh claim verification.
+
 # How to Use This Stack
 
 Five usage paths depending on who you are and what you need.
