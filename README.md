@@ -1,25 +1,46 @@
-# The Problem → The Evidence → The Decision
-**Four operational problems Razorglint technologies are built to address.**  
-*Public capability overview · 20 November 2026*
+<div align="center">
 
-Buy a capability because it solves a specific problem, not because a diagram contains a dozen product names. Each entry below identifies the **actual engineering surface**, a proof route and the essential deployment boundary.
+# RAZORGLINT · PAIN → PROOF
 
-| Operational problem | Engineering response | What can be checked |
+**Operational problems. Bounded engineering. Inspectable evidence.**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-334155?style=for-the-badge&logo=json&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Engineering](https://img.shields.io/badge/Method-Proof--first-6B46C1?style=for-the-badge)
+
+</div>
+
+---
+
+**Start with the operational failure, not a product catalogue.** Each response below is tied to a specific engineering surface and a qualification limit.
+
+## Four problems worth solving
+
+| Operational problem | Engineering response | What can actually be checked |
 | --- | --- | --- |
-| **Policy and observed behavior diverge across time.** | [Compliance Drift Detector](https://github.com/RazorglintLabs/ComplianceDriftDetector): deterministic checkpoint classifications, recovery history and export verification. | [76-test Windows/Linux CI and owner-accepted unsigned v0.2 controlled preview](https://github.com/RazorglintLabs/ComplianceDriftDetector/blob/main/docs/RELEASE_STATUS.md). Operator-classified inputs; no live raw-log analysis or regulatory certification. |
-| **Incident evidence is hard to present consistently to different operators.** | **Viventia**: one governed evidence model, distinct Customer and IR/MSSP presentation targets. | Private ongoing V1 engineering; two-cockpit work and controlled pilot gates remain under review. No claimed SIEM/EDR replacement or shipped enterprise deployment. |
-| **The system checking a product could mark its own work.** | **VEAC**: independent, scoped adversarial evaluation against explicit target/source identity. | Private hostile-test and examiner qualification material; any PASS has a bounded proposition and branch. Not a general safety certification. |
-| **A claim sounds stronger than the available evidence.** | **Prestige-Reforged**: evidence/claim and history-focused tooling, staged in private development. | Qualified components and gated Windows interface work; **not** a completed customer release. The older public Prestige Forge example remains a distinct historical surface. |
+| **Policy and observed behavior diverge over time.** | [Compliance Drift Detector](https://github.com/RazorglintLabs/ComplianceDriftDetector) analyzes supplied structured checkpoint records, including recovery history | [76-test Windows/Linux CI and unsigned controlled Windows preview](https://github.com/RazorglintLabs/ComplianceDriftDetector/blob/main/docs/RELEASE_STATUS.md), 16 Oct 2026. Not source authenticity, live telemetry or legal compliance |
+| **Incident evidence appears inconsistent to different operators.** | **Viventia** models scoped incident/evidence truth with Customer and IR/MSSP presentation targets | Private V1 engineering, cockpit qualification and pilot acceptance still gated |
+| **Product teams need independent adversarial challenge.** | **VEAC** holds a distinct test/examination boundary from Viventia | Private scoped assurance; not a blanket security certificate |
+| **Claims outpace their evidence.** | **Prestige-Reforged** develops versioned evidence and claim-evaluation tooling | Private staged testing and gated Windows delivery, not a completed customer release |
 
-## A straightforward evaluation path
+## Engineering verification methods
 
-1. **Identify one failure that matters** to your workflow.
-2. **Choose one existing capability**, not an arbitrary bundle.
-3. **Request exact-source evidence**: source revision, command, dated execution, outputs and negative case.
-4. **Agree the deployment boundary**: what remains untested, unsupported or requires separate rights.
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 
-The detailed [October capability map](CURRENT_CAPABILITY_MAP_2026-10-16.md) and [historical scenarios](painpoints/) remain available for deeper research. They are **dated reference material**, not a list of features newly verified in November. For the broad technical architecture, see [Systems Architecture](https://github.com/RazorglintLabs/systems-architecture). For QA engineering and contractor work, see the [founder portfolio](https://github.com/RazorglintLabs/damian-ketting-ai-systems-portfolio).
+| Problem | Bounded method |
+| --- | --- |
+| **Can we reproduce a narrow difference and preserve the evidence?** | [BRE](https://github.com/RazorglintLabs/damian-ketting-ai-systems-portfolio/blob/main/CASE_BRE_2026-11-20.md): source-aware review, deterministic JSON comparisons and detached single-key candidate generation |
+| **Is the proposed method or paid assignment actually eligible?** | [Elite Pantry](https://github.com/RazorglintLabs/damian-ketting-ai-systems-portfolio/blob/main/CASE_ELITE_PANTRY_2026-11-20.md): commercial/rights gates, structural oracle and evidence ZIP verification |
+| **How far does a public-source security observation prove anything?** | [Proton-related offline research](https://github.com/RazorglintLabs/damian-ketting-ai-systems-portfolio/blob/main/CASE_PROTON_RESEARCH_2026-11-20.md): source-pinned inspection and synthetic checks only. **No confirmed vulnerability or payout** |
+| **Can a browser regression be reproduced under CI?** | [Playwright case](https://github.com/RazorglintLabs/damian-ketting-ai-systems-portfolio/blob/main/PLAYWRIGHT_QA_CASE_2026-11-20.md): 9/9 Chromium tests passed in a private source-snapshot workflow, 20 Nov 2026 |
+
+**Selection method:** define the failure → inspect the real source and rights → create a bounded reproduction → capture negative cases → agree the acceptance boundary.
+
+[Detailed October capability register](CURRENT_CAPABILITY_MAP_2026-10-16.md) · [Historical scenarios](painpoints/) · [Systems Architecture](https://github.com/RazorglintLabs/systems-architecture) · [Founder's portfolio](https://github.com/RazorglintLabs/damian-ketting-ai-systems-portfolio)
 
 **Contact:** [razorglint.ops@protonmail.com](mailto:razorglint.ops@protonmail.com)
 
-*Razorglint Labs / TCOG Collective LLC · No implied certification, customer deployment, integrated runtime or source license.*
+<sub>Razorglint Labs / TCOG Collective LLC · 20 November 2026. No implied integrated deployment, certification, license grant or vendor affiliation.</sub>
